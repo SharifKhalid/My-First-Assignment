@@ -7,7 +7,8 @@ section{
     margin: 0 auto;
 }
 .half-width{
-    width: 50%;
+    width: 47%;
+   
 }
 .half-width img{
     width: 100%;
@@ -19,13 +20,16 @@ section{
 section{
     display: flex;
     margin: 20px auto;
+    justify-content: space-between;
 }
 .text-center{
     text-align: center;
+    margin-top: 100px;
 }
 .box-size{
-    width: 250px;
-    background-color: rgb(216, 233, 233);
+    width: 300px;
+    height: 300px;
+    
     border-radius: 10px;
     padding: 15px;
 }
@@ -39,8 +43,59 @@ section{
 #section-margin{
     margin-top: 100px;
 }
+
+.radius img{
+    border-radius: 20px;
+}
+#last-section{
+    
+    margin-top: 100px;
+}
+.button-design{
+    background-color: rgba(235, 48, 179, 0.712);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: hsl(348, 100%, 1%);
+}
 .footer{
-    background-color: darkkhaki;
-    color: wheat;
+    background-color: darkblue;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd);
     margin-top: 200px;
+    font-weight: bold;
+    padding: 5px;
+    color: burlywood;
+}
+body{
+    margin: 0 0;
+}
+.font-size{
+    font-weight: 500;
+    font-size: large;
+    
+}
+.Last-box{
+    width: 30%;
+    
+    background-color: wheat;
+    box-shadow: 0 0 5px  rgb(26, 27, 27);
+    font-size: larger;
+    padding: 25px;
+    border-radius: 15px;
+}
+#last-section{
+    margin-top: 100px;
+}
+span{
+    color: rgb(211, 38, 26);
+}
+#mission{
+    background-color: rgb(216, 233, 233);
+}
+#vission{
+    background-color: rgb(115, 236, 236);
+}
+#goals{
+    background-color: rgba(116, 228, 163, 0.712);
 }
