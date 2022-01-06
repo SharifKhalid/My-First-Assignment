@@ -1,11 +1,29 @@
+body{
+    margin: 0 0;
+}
+.font-size{
+    font-weight: 500;
+    font-size: large;
+    
+}
 h1{
     font-size: 40px;
 }
-section{
+span{
+    color: rgb(211, 38, 26);
+}
 
+section{
+    
     width: 80%;
     margin: 0 auto;
 }
+section{
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+}
+
 .half-width{
     width: 47%;
    
@@ -17,11 +35,7 @@ section{
     border-left: 5px solid rgb(67, 65, 199);
     padding-left: 5px;
 }
-section{
-    display: flex;
-    margin: 20px auto;
-    justify-content: space-between;
-}
+
 .text-center{
     text-align: center;
     margin-top: 100px;
@@ -29,13 +43,22 @@ section{
 .box-size{
     width: 300px;
     height: 300px;
-    
+    margin-top: 15px;
     border-radius: 10px;
     padding: 15px;
 }
 .box-size img{
     width: 100px;
 }
+.Last-box{
+    width: 30%;
+    background-color: wheat;
+    box-shadow: 0 0 5px  rgb(26, 27, 27);
+    font-size: larger;
+    padding: 25px;
+    border-radius: 15px;
+}
+
 .new-section{
     display: flex;
     justify-content: space-evenly;
@@ -43,14 +66,15 @@ section{
 #section-margin{
     margin-top: 100px;
 }
-
-.radius img{
-    border-radius: 20px;
-}
 #last-section{
     
     margin-top: 100px;
 }
+
+.radius img{
+    border-radius: 20px;
+}
+
 .button-design{
     background-color: rgba(235, 48, 179, 0.712);
     padding: 10px;
@@ -59,6 +83,16 @@ section{
     text-decoration: none;
     color: hsl(348, 100%, 1%);
 }
+
+#mission{
+    background-color: wheat;
+}
+#vission{
+    background-color: rgb(115, 236, 236);
+}
+#goals{
+    background-color: rgba(116, 228, 163, 0.712);
+}
 .footer{
     background-color: darkblue;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd);
@@ -66,36 +100,4 @@ section{
     font-weight: bold;
     padding: 5px;
     color: burlywood;
-}
-body{
-    margin: 0 0;
-}
-.font-size{
-    font-weight: 500;
-    font-size: large;
-    
-}
-.Last-box{
-    width: 30%;
-    
-    background-color: wheat;
-    box-shadow: 0 0 5px  rgb(26, 27, 27);
-    font-size: larger;
-    padding: 25px;
-    border-radius: 15px;
-}
-#last-section{
-    margin-top: 100px;
-}
-span{
-    color: rgb(211, 38, 26);
-}
-#mission{
-    background-color: rgb(216, 233, 233);
-}
-#vission{
-    background-color: rgb(115, 236, 236);
-}
-#goals{
-    background-color: rgba(116, 228, 163, 0.712);
 }
